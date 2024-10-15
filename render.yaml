@@ -1,0 +1,24 @@
+# Exported from Render on 2024-10-11T21:47:27Z
+services:
+- type: web
+  name: IAC
+  runtime: python
+  repo: https://github.com/DaniVH7/iac
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python3 app.py
+version: "1"
+
+
+# Exported from Render on 2024-10-11T21:47:27Z
+services:
+- type: web
+  name: IAC
+  runtime: python
+  repo: https://github.com/DaniVH7/api_rest
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python3 app.py
+version: "1"
