@@ -1,7 +1,7 @@
 # Exported from Render on 2024-10-11T21:47:27Z
 services:
 - type: web
-  name: IAC
+  name: aplicacion_web
   runtime: python
   repo: https://github.com/DaniVH7/app_Web
   plan: free
@@ -12,7 +12,7 @@ services:
 
 # Exported from Render on 2024-10-11T21:47:27Z
 - type: web
-  name: IAC
+  name: api_rest
   runtime: python
   repo: https://github.com/DaniVH7/api_rest
   plan: free
